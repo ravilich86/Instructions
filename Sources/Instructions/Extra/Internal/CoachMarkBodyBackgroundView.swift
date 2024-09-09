@@ -21,6 +21,7 @@ class CoachMarkBodyBackgroundView: UIView,
     }
 
     public var cornerRadius: CGFloat = 8
+    public var borderLineWidth: CGFloat = 1.0
 
     public lazy var innerColor = InstructionsColor.coachMarkInner
     public lazy var borderColor = InstructionsColor.coachMarkOuter

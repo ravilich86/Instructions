@@ -8,6 +8,7 @@ public protocol CoachMarkBackgroundStyle {
     var borderColor: UIColor { get set }
     var highlightedInnerColor: UIColor { get set }
     var highlightedBorderColor: UIColor { get set }
+    var borderLineWidth: CGFloat { get set }
 }
 
 public protocol CoachMarkBodyBackgroundStyle: AnyObject, CoachMarkBackgroundStyle {

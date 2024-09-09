@@ -27,6 +27,8 @@ public class CoachMarkArrowDefaultView: UIView,
     }
 
     public var background = CoachMarkArrowBackground()
+    
+    public var borderLineWidth: CGFloat = 1.0
 
     // MARK: - Initialization
     public init(orientation: CoachMarkArrowOrientation) {
@@ -82,4 +84,6 @@ public struct CoachMarkArrowBackground: CoachMarkBackgroundStyle {
 
     public var highlightedInnerColor = InstructionsColor.coachMarkHighlightedInner
     public var highlightedBorderColor = InstructionsColor.coachMarkOuter
+    
+    public var borderLineWidth: CGFloat = 1.0
 }

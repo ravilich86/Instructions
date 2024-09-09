@@ -110,6 +110,8 @@ internal class DefaultViewController: ProfileViewController,
             coachViews.bodyView.nextLabel.text = self.nextButtonText
         default: break
         }
+        
+        coachViews.arrowView?.borderLineWidth = 2.5
 
         return (bodyView: coachViews.bodyView, arrowView: coachViews.arrowView)
     }
